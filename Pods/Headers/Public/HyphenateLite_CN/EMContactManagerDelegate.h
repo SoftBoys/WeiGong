@@ -1,0 +1,1 @@
+../../../HyphenateLite_CN/HyphenateSDK/include/EMContactManagerDelegate.h

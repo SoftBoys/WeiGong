@@ -1,0 +1,24 @@
+//
+//  NewWG-PrefixHeader.pch
+//  NewWGProject
+//
+//  Created by dfhb@rdd on 16/10/12.
+//  Copyright © 2016年 guojunwei. All rights reserved.
+//
+
+#ifndef NewWG_PrefixHeader_pch
+#define NewWG_PrefixHeader_pch
+
+#ifdef __OBJC__
+    #define MAS_SHORTHAND
+    #import <Masonry.h>
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MJRefresh.h>
+    #import <MJExtension.h>
+    #import "WG_Const.h"
+    #import "WGBaseRequest.h"
+    #import <RealReachability/RealReachability.h>
+#endif
+
+#endif /* NewWG_PrefixHeader_pch */
